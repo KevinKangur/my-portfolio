@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter;
+    background-color: #e4eedb;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 20px;
+    background-color: #a6b69f;
+    color: #fff;
+}
+
+.navLinks {
+    display: flex;
+    gap: 40px;
+    font-size: 24px;
+}
+
+.about-me {
+    text-decoration: underline;
+    color: #f0f3ec;
+}
+
+.home:hover, .about-me:hover, .projects:hover, .contact:hover {
+    text-decoration: underline;
+    color: #f0f3ec;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}

@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter;
+    background-color: #e4eedb;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 20px;
+    background-color: #a6b69f;
+    color: #fff;
+}
+
+.navLinks {
+    display: flex;
+    gap: 40px;
+    font-size: 24px;
+}
+
+.home {
+    text-decoration: underline;
+    color: #f0f3ec;
+}
+
+.home:hover, .about-me:hover, .projects:hover, .contact:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    text-align: right;
+    height: 90vh;
+}
+
+.short-intro {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.short-intro h2 {
+    font-size: 60px;
+    text-align: start;
+    width: 20vw;
+}
+
+.short-about {
+    width: 35vw;
+}
+
+.container p {
+    font-size: 20px;
+    text-align: start;
+}
