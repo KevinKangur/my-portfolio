@@ -6,7 +6,7 @@
 
 body {
     font-family: Inter;
-    background-color: #e4eedb;
+    background-color: #000000;
 }
 
 header {
@@ -15,8 +15,7 @@ header {
     align-items: center;
     height: 10vh;
     padding: 20px;
-    background-color: #a6b69f;
-    color: #fff;
+    color: #FFFFFF;
 }
 
 .navLinks {
@@ -27,15 +26,13 @@ header {
 
 .about-me {
     text-decoration: underline;
-    color: #f0f3ec;
 }
 
 .home:hover, .about-me:hover, .projects:hover, .contact:hover {
     text-decoration: underline;
-    color: #f0f3ec;
 }
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: #FFFFFF;
 }
