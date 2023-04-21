@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    font-family: Inter;
+    background-image: linear-gradient(160deg, #a9a9a9, #303030);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 20px;
+    color: #f7f2f2;
+}
+
+.navLinks {
+    display: flex;
+    gap: 40px;
+    font-size: 24px;
+}
+
+.navLinks a {
+    color: #f7f2f2;
+}
+
+.projects {
+    font-weight: bold;
+}
+
+.home:hover, .about-me:hover, .contact:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 100px repeat(6, 1fr) 100px;
+    grid-template-rows: repeat(2, 1fr) 100px repeat(2, 1fr) 100px repeat(2,1fr);
+    align-items: center;
+    color: #f7f2f2;
+}
+
+.school-team-projects {
+    grid-column: 2 / 4;
+    grid-row: 1;
+}
+
+.school-team-projects h2 {
+    font-size: 50px;
+}
+
+.school-team-project-1 {
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 12vw;
+    height: 24vh;
+    border: solid #303030 1px;
+    border-radius: 10px;
+    padding: 6px;
+    gap: 10px;
+    background-color: #f7f2f2;
+}
+
+.school-team-project-1 a {
+    color: #303030;
+    font-size: 24px;
+}
+
+.school-team-project-1 a:hover {
+    text-decoration: underline;
+}
+
+.school-team-project-1 p {
+    font-size: 20px;
+    color: #303030;
+}
+
+.school-projects {
+    grid-column: 2 / 4;
+    grid-row: 4;
+}
+
+.school-projects h2 {
+    font-size: 50px;
+}
+
+.school-project-1 {
+    grid-column: 2;
+    grid-row: 5;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 12vw;
+    height: 24vh;
+    border: solid #303030 1px;
+    border-radius: 10px;
+    padding: 6px;
+    gap: 10px;
+    background-color: #f7f2f2;
+}
+
+.portfolio-link {
+    color: #303030;
+    font-size: 24px;
+}
+
+.school-project-1 p {
+    font-size: 20px;
+    color: #303030;
+}
+
+.school-project-1 a {
+    color: #303030;
+}
+
+.school-project-1 a:hover {
+    text-decoration: underline;
+}

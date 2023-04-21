@@ -28,11 +28,11 @@ header {
     font-size: 24px;
 }
 
-.about-me {
+.contact {
     font-weight: bold;
 }
 
-.home:hover, .projects:hover, .contact:hover {
+.home:hover, .about-me:hover, .projects:hover {
     text-decoration: underline;
 }
 

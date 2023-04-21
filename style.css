@@ -6,7 +6,7 @@
 
 body {
     font-family: Inter;
-    background-color: #e4eedb;
+    background-image: linear-gradient(160deg, #a9a9a9, #303030);
 }
 
 header {
@@ -15,8 +15,7 @@ header {
     align-items: center;
     height: 10vh;
     padding: 20px;
-    background-color: #d2dfcc;
-    color: #383838;
+    color: #f7f2f2;
 }
 
 .navLinks {
@@ -26,16 +25,16 @@ header {
 }
 
 .home {
-    text-decoration: underline;
+    font-weight: bold;
 }
 
-.home:hover, .about-me:hover, .projects:hover, .contact:hover {
+.about-me:hover, .projects:hover, .contact:hover {
     text-decoration: underline;
 }
 
 a {
     text-decoration: none;
-    color: #383838;
+    color: #f7f2f2;
 }
 
 .container {
@@ -44,6 +43,7 @@ a {
     grid-template-rows: repeat(4, 1fr);
     text-align: right;
     height: 90vh;
+    color: #f7f2f2;
 }
 
 .short-intro {
