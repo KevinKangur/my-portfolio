@@ -67,8 +67,8 @@ a {
     justify-self: center;
     display: flex;
     flex-direction: column;
-    width: 12vw;
-    height: 24vh;
+    width: 200px;
+    height: 280px;
     border: solid #303030 1px;
     border-radius: 10px;
     padding: 6px;
@@ -105,8 +105,8 @@ a {
     justify-self: center;
     display: flex;
     flex-direction: column;
-    width: 12vw;
-    height: 24vh;
+    width: 200px;
+    height: 280px;
     border: solid #303030 1px;
     border-radius: 10px;
     padding: 6px;
