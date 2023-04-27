@@ -10,7 +10,7 @@ html {
 
 body {
     font-family: Inter;
-    background-image: linear-gradient(160deg, #a9a9a9, #303030);
+    background-image: linear-gradient(160deg, #C33764, #1D2671, #131841);
 }
 
 header {
@@ -36,9 +36,30 @@ header {
     font-weight: bold;
 }
 
-.home:hover, .about-me:hover, .contact:hover {
-    text-decoration: underline;
+.about-me, .home, .contact {
+    display: inline-block;
+    position: relative;
+    color: #f7f2f2;
 }
+
+.about-me::after, .home::after, .contact::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #f7f2f2;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.about-me:hover::after, .home:hover::after, .contact:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
 
 a {
     text-decoration: none;
@@ -47,19 +68,19 @@ a {
 .container {
     display: grid;
     grid-template-columns: 100px repeat(6, 1fr) 100px;
-    grid-template-rows: 200px 1fr 200px 1fr 200px 1fr;
+    grid-template-rows: 200px 1fr 200px 1fr 200px 1fr 200px 1fr;
     align-items: center;
     color: #f7f2f2;
 }
 
 .school-team-projects {
     grid-column: 2 / 5;
-    grid-row: 1;
+    grid-row: 7;
 }
 
 .school-team-project-1 {
     grid-column: 2;
-    grid-row: 2;
+    grid-row: 8;
     justify-self: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -96,14 +117,14 @@ a {
     color: #303030;
 }
 
-.school-projects {
+.HTML-CSS {
     grid-column: 2 / 4;
-    grid-row: 3;
+    grid-row: 1;
 }
 
-.school-project-1 {
+.HTML-CSS-project-1 {
     grid-column: 2;
-    grid-row: 4;
+    grid-row: 2;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 520px;
@@ -114,7 +135,7 @@ a {
     background-color: #f7f2f2;
 }
 
-.school-project-1-about {
+.HTML-CSS-project-1-about {
     grid-column: 1;
     display: flex;
     flex-direction: column;
@@ -126,30 +147,35 @@ a {
     font-size: 24px;
 }
 
-.school-project-1 p {
+.HTML-CSS-project-1 p {
     font-size: 20px;
     color: #303030;
 }
 
-.school-project-1 a {
+.HTML-CSS-project-1 a {
     color: #303030;
 }
 
-.school-project-1 a:hover {
+.HTML-CSS-project-1 a:hover {
     text-decoration: underline;
 }
 
-.personal-projects {
+.JavaScript {
     grid-column: 2 / 4;
-    grid-row: 5;
+    grid-row: 3;
 }
 
-.personal-project-1 {
+.JavaScript-project {
     grid-column: 2;
-    grid-row: 6;
+    grid-row: 4;
     font-size: 24px;
 }
 
-.school-team-projects h2, .school-projects h2, .personal-projects h2 {
+.school-team-projects h2, .HTML-CSS h2, .JavaScript h2, .python h2{
     font-size: 50px;
+}
+
+.python {
+    grid-column: 2;
+    grid-row: 5;
 }
