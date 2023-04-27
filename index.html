@@ -12,22 +12,89 @@
     <header>
         <h1>Kevin Kangur</h1>
         <div class="navLinks">
-            <a class="home" href="index.html">Home</a>
-            <a class="about-me" href="about-me.html">About me</a>
-            <a class="projects" href="projects.html">Projects</a>
-            <a class="contact" href="contact.html">Contact</a>
+            <a class="about-me" href="#about-section">About me</a>
+            <a class="projects" href="#works">Projects</a>
+            <a class="contact" href="#contact-box">Contact</a>
         </div>
     </header>
 
-    <div class="container">
+    <div class="front">
         <div class="short-intro">
             <p>Welcome to my portfolio</p>
             <h2 class="name">Hello, I'm Kevin Kangur</h2>
             <p>Software Developer</p>
         </div>
         <div class="short-about">
-            <p>I'm a first year software development student at Kuressaare Ametikool (Kuressaare Regional Training Centre). I don't have prior experience with programming but I'm always aspiring to learn.</p>
+            <p>I'm an aspiring web developer studying software development at Kuressaare Ametikool (Kuressaare Regional Training Centre).</p>
         </div>
     </div>
+
+    <div id="about-section" class="about-section">
+        <h2>About me</h2>
+        <div class="about">
+            <p>Hello, my name is Kevin Kangur, I'm an 18 year old IT student in my first year studying software development at Kuressaare Ametikool (Kuressaare Regional Training Centre). This is also my first year of programming. For the main part I have been studying HTML, CSS and some Python basics but I'm also hoping to start learning JavaScript.</p>
+            <p> I'm always aspiring to learn new things and improve.</p>
+            
+        </div>
+    </div>
+
+    <div id="works" class="works">
+        <div class="html-css">
+            <h2>HTML and CSS</h2>
+            <a href="https://github.com/KevinKangur/portfolio_website" class="links">Portfolio website</a>
+            <a href="https://github.com/KevinKangur/Building-magazine" class="links">Building magazine</a>
+            <a href="https://github.com/KevinKangur/POVYouAreMakingDelfi" class="links">Making Delfi</a>
+            <a href="https://github.com/KevinKangur/grid-layout" class="links">Grid layout practice</a>
+            <a href="https://github.com/KevinKangur/flexbox-practicing" class="links">Flexbox practice</a>
+        </div>
+        
+        <div class="javascript">
+            <h2>JavaScript</h2>
+            <p class="js-1st">None yet</p>
+        </div>
+        
+        <div class="python">
+            <h2>Python</h2>
+            <a href="https://github.com/KevinKangur/pythonprogramming" class="py-1st">Python programming</a>
+        </div>
+
+        <div class="school-projects">
+            <h2>School projects</h2>
+            <a href="https://github.com/sander-aleks/KAK100Portfolio" class="team-1st">Ametikool portfolio</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="contact-box" id="contact-box">
+            <h2>My contacts</h2>
+            <div class="contacts">
+                <div class="icons">
+                    <div class="location">
+                        <img src="https://i.imgur.com/T5HDoDi.png" alt="location-icon" class="location-icon">
+                        <p class="place">Estonia, Saaremaa</p>
+                    </div>
+
+                    <div class="emails">
+                        <img src="https://i.imgur.com/LBxRKgx.png" alt="email-icon" class="email-icon">
+                        <p class="email">kevinkangur13@gmail.com</p>
+                    </div>
+
+                    <div class="phone">
+                        <img src="https://i.imgur.com/Y5fSlIm.png" alt="phone-icon" class="phone-icon">
+                        <p class="phone-number">5692 1961</p>
+                    </div>
+                    
+                    <div class="my-twitter">
+                        <img src="https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/twitter-icon-18-256.png" alt="twitter-bird" class="twitter-bird">
+                        <a href="https://twitter.com/kangur_kevin" class="twitter">@kangur_kevin</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+
+    <script src="app.js"></script>
 </body>
 </html>
