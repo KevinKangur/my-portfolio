@@ -60,7 +60,6 @@ header {
     transform-origin: bottom left;
 }
 
-
 a {
     text-decoration: none;
 }
@@ -73,109 +72,26 @@ a {
     color: #f7f2f2;
 }
 
-.school-team-projects {
-    grid-column: 2 / 5;
-    grid-row: 7;
-}
-
-.school-team-project-1 {
-    grid-column: 2;
-    grid-row: 8;
-    justify-self: center;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 520px;
-    height: 240px;
-    border: solid #303030 1px;
-    border-radius: 10px;
-    padding: 6px;
-    background-color: #f7f2f2;
-}
-
-.team-project-1-about {
-    grid-column: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.links {
-    color: #303030;
-    font-size: 24px;
-}
-
-.about-team-project-1-me {
-    grid-column: 2;
-}
-
-.school-team-project-1 a:hover {
-    text-decoration: underline;
-}
-
-.school-team-project-1 p {
-    font-size: 20px;
-    color: #303030;
-}
-
-.HTML-CSS {
+.html-css {
     grid-column: 2 / 4;
     grid-row: 1;
 }
 
-.HTML-CSS-project-1 {
-    grid-column: 2;
-    grid-row: 2;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 520px;
-    height: 240px;
-    border: solid #303030 1px;
-    border-radius: 10px;
-    padding: 6px;
-    background-color: #f7f2f2;
-}
-
-.HTML-CSS-project-1-about {
-    grid-column: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-
-.portfolio-link {
-    color: #303030;
-    font-size: 24px;
-}
-
-.HTML-CSS-project-1 p {
-    font-size: 20px;
-    color: #303030;
-}
-
-.HTML-CSS-project-1 a {
-    color: #303030;
-}
-
-.HTML-CSS-project-1 a:hover {
-    text-decoration: underline;
-}
-
-.JavaScript {
+.javascript {
     grid-column: 2 / 4;
     grid-row: 3;
-}
-
-.JavaScript-project {
-    grid-column: 2;
-    grid-row: 4;
-    font-size: 24px;
-}
-
-.school-team-projects h2, .HTML-CSS h2, .JavaScript h2, .python h2{
-    font-size: 50px;
 }
 
 .python {
     grid-column: 2;
     grid-row: 5;
+}
+
+.school-projects {
+    grid-column: 2 / 5;
+    grid-row: 7;
+}
+
+.school-projects h2, .html-css h2, .javascript h2, .python h2{
+    font-size: 50px;
 }
