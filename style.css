@@ -159,7 +159,7 @@ a {
 }
 
 .javascript:hover {
-    height: 100px;
+    height: 110px;
 }
 
 .javascript p {
@@ -209,30 +209,6 @@ a {
 
 .school-projects h2, .html-css h2, .javascript h2, .python h2{
     font-size: 50px;
-}
-
-.links, .py-1st, .team {
-    display: inline-block;
-    position: relative;
-    color: #f7f2f2;
-}
-
-.links::after, .py-1st::after, .team::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #f7f2f2;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-}
-
-.links:hover::after, .py-1st:hover::after, .team:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
 }
 
 footer {
